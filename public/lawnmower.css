@@ -1,0 +1,14 @@
+h1{
+  font-family: 'Creepster', cursive;
+  font-size: 72px;
+  text-shadow: 2px 2px #FF0000;
+}
+
+body {
+  text-align: center;
+  border-style: ridge;
+  border-width: 10px;
+  background-color: #800000;
+  font-family: 'Oswald', sans-serif;
+}
+
