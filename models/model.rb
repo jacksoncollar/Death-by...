@@ -11,7 +11,7 @@
 #   :q10 => "b",
 #   }
 
-class Death
+class Death 
 
   def initialize(quiz_answers)
     @response  = quiz_answers
