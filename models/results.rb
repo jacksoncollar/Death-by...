@@ -25,6 +25,6 @@ class Result
       @header = "Volcano"
     end
   end
-  attr_reader :text, :img_url, :header
+  attr_reader :text, :image_url, :header
   
 end
