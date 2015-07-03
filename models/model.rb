@@ -1,15 +1,15 @@
-q_and_a = {
-  :q1 => "a",
-  :q2 => "b",
-  :q3 => "c",
-  :q4 => "d",
-  :q5 => "a",
-  :q6 => "b",
-  :q7 => "c",
-  :q8 => "d",
-  :q9 => "a",
-  :q10 => "b",
-  }
+# q_and_a = {
+#   :q1 => "a",
+#   :q2 => "b",
+#   :q3 => "c",
+#   :q4 => "d",
+#   :q5 => "a",
+#   :q6 => "b",
+#   :q7 => "c",
+#   :q8 => "d",
+#   :q9 => "a",
+#   :q10 => "b",
+#   }
 
 class Death
 
@@ -133,6 +133,6 @@ class Death
 end
 
 
-Eytan = Death.new(q_and_a)
-e_answers = Eytan.quiz_response
-Eytan.highest_key
+# Eytan = Death.new(q_and_a)
+# e_answers = Eytan.quiz_response
+# Eytan.highest_key
