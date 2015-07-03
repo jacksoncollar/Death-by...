@@ -26,7 +26,7 @@ class Death
   
   def highest_key
     highest_value = @death_score.max_by{ |k,v| v }[0]
-    puts highest_value
+    return highest_value
   end
   
   

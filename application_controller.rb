@@ -11,15 +11,18 @@ class MyApp < Sinatra::Base
     Eytan = Death.new(params)
     e_answers = Eytan.quiz_response
     @highest_key = Eytan.highest_key 
-    if @highest_key == "lawnmower"
+    puts @highest_key.to_s
+    puts @highest_key.class
+    if @highest_key.to_s == "lawnmower"
       erb :lawnmower
-    elsif @highest_key == "toilet"
+    elsif @highest_key.to_s == "toilet"
       erb :toilet
-    elsif @highest_key == "beard"
+    elsif @highest_key.to_s == "beard"
       erb :beard
-    elsif @highest_key == "combustion"
+    elsif @highest_key.to_s == "combustion"
       erb :sc
-    elsif @highest_key == "volcano"
+      puts "hi"
+    elsif @highest_key.to_s == "volcano"
       erb :volcano
     end
     
