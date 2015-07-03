@@ -17,11 +17,11 @@ class Result
       @header = "Beard"
     elsif highest_key.to_s == "combustion"
       @text = "  After a 17 year marriage ends in a divorce you realize you have to get back in shape for the your big return to the dating scene. Over the years you have developed quite a beer belly and have begun to eat your food off your stomach like an otter. You hire a personal trainer to yell at you to lift heavy things. You feel pretty good after the first week! You can do 5 reps of 5 lbs dumbbells! But when week 3 rolls around you notice after each day you feel incredibly hot. Must be a fever, you think. I’m fine, you say. What is going on, you wonder. One day you decide to check your temperature with a thermometer. You are shocked when it reads 300 degrees Fahrenheit you look at the mirror and a body engulfed in flames stares back at you. It’s too late. You have spontaneously combusted. "
-      @image_url = '<img src =http://www.101diettips.com/wp-content/uploads/2009/08/chestfat-300x199.jpg>'
+      @image_url = "https://www.101diettips.com/wp-content/uploads/2009/08/chestfat-300x199.jpg"
       @header = "Spontaneous Combustion"
     elsif highest_key.to_s == "volcano"
-      @text = "  While on a hike up a mountain you peek over the edge into a big crater and see hot magma bubbling all around. You 15 year old daughter, mad that you cut her data plan in half, kicks you into the magma and takes a selfie of you and her with the selfie stick you got her for Christmas dying and posts it on Instagram. #GetYourDaughterTheUnlimitedDataPlan"
-      @image_url = "http://thumbs.dreamstime.com/x/angry-girl-22841364.jpg"
+      @text = "  While on a hike up a mountain you peek over the edge into a big crater and see hot magma bubbling all around. Your 15 year old daughter, mad that you cut her data plan in half, kicks you into the magma and takes a selfie of you and her with the selfie stick you got her for Christmas dying and posts it on Instagram. #GetYourDaughterTheUnlimitedDataPlan"
+      @image_url = "http://regmedia.co.uk/2014/02/17/volcano_erupting_shutterstock.jpg"
       @header = "Volcano"
     end
   end
