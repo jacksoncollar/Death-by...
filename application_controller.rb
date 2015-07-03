@@ -3,4 +3,6 @@ Bundler.require
 
 class MyApp < Sinatra::Base
   
+  end
+  
 end
