@@ -67,7 +67,7 @@ class Death
     if  @response[:q4] == "a"
       question(1,1,1,1,0)
     elsif  @response[:q4] == "b"
-      question(2,0,2,0,1)
+      question(2,0,0,0,1)
     elsif  @response[:q4] == "c"
       question(1,0,2,1,1)  
     elsif  @response[:q4] == "d"
@@ -98,7 +98,7 @@ class Death
     elsif  @response[:q7] == "c"
       question(2,0,2,0,0)
     elsif  @response[:q7] == "d"
-      question(2,0,2,1,1)
+      question(2,0,0,1,1)
     end    
      if  @response[:q8] == "a"
       question(0,0,2,1,2)
@@ -107,7 +107,7 @@ class Death
     elsif  @response[:q8] == "c"
       question(0,0,2,1,0) 
     elsif  @response[:q8] == "d"
-      question(0,2,1,0,0)
+      question(0,2,0,0,0)
     end   
     if  @response[:q9] == "a"
       question(0,2,2,1,0)
