@@ -1,0 +1,40 @@
+h1{
+  font-family: 'Creepster', cursive;
+  font-size: 72px;
+  text-shadow: 2px 2px #FF0000;
+}
+
+body {
+  text-align: center;
+  border-style: ridge;
+  border-width: 10px;
+  background-color: #800000;
+  font-family: 'Oswald', sans-serif;
+}
+
+#vladmirPutin {
+  max-width: 800px;
+  
+}
+#kimkardashian {
+  display: inline;
+  max-width: 250px;
+  max-height: 500px;
+}
+
+#bushPhoto {
+  display: inline;
+  max-width: 250px;
+  max-height: 500px;
+  
+}
+input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+      font-family: 'Oswald', sans-serif;
+    }
